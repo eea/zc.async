@@ -190,7 +190,7 @@ class Dispatchers(zc.dict.Dict):
         da = super(Dispatchers, self).pop(uuid)
         da.parent = da.name = None
         zope.event.notify(
-            zc.async.interfaces.DispatcherUnregistered(da, self.__parent__))
+            zc.async.interfaces.DispatcherUnregistered(da))
         return da
 
     def ping(self, uuid):

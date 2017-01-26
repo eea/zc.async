@@ -5,6 +5,7 @@ Changes
 1.5.5 (unreleased)
 ==================
 
+- Fixed Dispatchers unregister method (see issue #1)
 
 1.5.4 (2011-03-03)
 ==================
